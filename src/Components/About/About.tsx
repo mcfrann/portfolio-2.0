@@ -9,8 +9,8 @@ const About = () => {
     <>
       <section className='about-section'>
         <header>
-          <div className='top-nav header-detail'>
-            <h1 className='page-title'>About</h1>
+          <div className='top-nav nav-about header-detail'>
+            <h1 className='page-title about-title'>About</h1>
             <Link to='/' style={{ textDecoration: 'none', color: 'black' }}>
               <h1 className='nav-link'>Home</h1>
             </Link>
@@ -36,7 +36,7 @@ const About = () => {
                 target='_blank'
                 className='resume-download-button'
               >
-                <p className='resume-link'>download resume</p>
+                <p className='resume-link'>download resume.</p>
               </a>
             </div>
           </div>
