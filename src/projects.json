@@ -29,7 +29,7 @@
       "deployed": "https://daily-wow.herokuapp.com/"
     },
     {
-      " id": 5,
+      "id": 5,
       "name": "oracle",
       "image": "projPicFive",
       "repo": "https://github.com/mcfrann/oracle",
