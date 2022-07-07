@@ -1,20 +1,37 @@
-header {
-  padding: 0.2em;
-  margin-top: 0;
-  margin-bottom: 0;
-  background-color: #f7f5f5;
-}
-
 .top-nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin: 0;
-  border-bottom: 1px solid black;
-  height: 3.5em;
+  width: 100vw;
 }
 
 .header-detail {
   border-bottom: 1px solid black;
-  margin-bottom: 0;
+  margin: 0;
+  margin-top: 1em;
+  height: 2.5em;
+}
+
+.page-title {
+  margin: 0;
+  margin-left: 0.3em;
+}
+
+.nav-link {
+  margin: 0;
+  margin-right: 0.3em;
+}
+
+.nav-link:hover {
+  color: red;
+}
+
+.gif {
+  height: 0.7em;
+  // width: 0.8em;
+  // object-fit: cover;
+  // border-radius: 50%;
+  margin: 0;
+  margin-left: 0.3em;
+  margin-right: 0.3em;
 }

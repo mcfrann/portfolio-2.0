@@ -1,0 +1,9 @@
+.link-icon {
+  height: 25px;
+}
+
+.link-icon:hover {
+  transform: scale(1.1);
+  border-radius: 5%;
+  transition: 500ms;
+}

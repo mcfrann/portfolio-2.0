@@ -1,3 +1,55 @@
+.title {
+  margin-left: 0.3em;
+}
+
 .proj-name {
   margin: 0;
+  margin-left: 0.7em;
+  cursor: pointer;
+}
+
+.proj-name:hover {
+  color: red;
+}
+
+.project-tile {
+  opacity: 0;
+  transform: translateY(20vh);
+  visibility: hidden;
+  transition: opacity 0.6s ease-out, transform 1.2s ease-out;
+  will-change: opacity, visibility;
+}
+
+.project-tile:hover {
+  -webkit-animation: slide-right 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: slide-right 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+.project-tile.is-visible {
+  opacity: 1;
+  transform: none;
+  visibility: visible;
+}
+
+// --------------------------------- animations
+
+@-webkit-keyframes slide-right {
+  0% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(30px);
+    transform: translateX(30px);
+  }
+}
+@keyframes slide-right {
+  0% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(30px);
+    transform: translateX(30px);
+  }
 }
