@@ -1,9 +1,15 @@
 import './ProjectTile.scss'
 
-const ProjectTile = ({ key, id, name }) => {
+interface ProjectInfo {
+  key: number
+  id: number
+  name: string
+}
+
+const ProjectTile = (props: ProjectInfo) => {
   return (
     <section className='project-tile'>
-      <h1 className='proj-name'>{name}</h1>
+      <h1 className='proj-name'>{props.name}</h1>
     </section>
   )
 }
