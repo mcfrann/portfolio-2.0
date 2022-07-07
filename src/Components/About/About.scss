@@ -46,19 +46,21 @@
   height: 40vh;
 }
 
-.link-container {
+.resume-container {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
   margin-top: 1em;
 }
 
-.link-icon {
-  height: 25px;
+.resume-download-button {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+  font-size: 1.2em;
+  margin: 0;
 }
 
-.link-icon:hover {
-  transform: scale(1.1);
-  border-radius: 5%;
-  transition: 500ms;
+.resume-download-button:hover {
+  color: red;
 }
