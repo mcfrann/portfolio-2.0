@@ -7,3 +7,11 @@
   border-radius: 5%;
   transition: 500ms;
 }
+
+//-------------------------------- breakpoints
+
+@media only screen and (max-width: 600px) {
+  .link-icon {
+    height: 3em;
+  }
+}

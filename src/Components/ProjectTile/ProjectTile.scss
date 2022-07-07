@@ -53,3 +53,16 @@
     transform: translateX(30px);
   }
 }
+
+//-------------------------------- breakpoints
+
+@media only screen and (max-width: 600px) {
+  .title,
+  .proj-name {
+    margin-left: 0;
+  }
+
+  .proj-name {
+    font-size: 8vw;
+  }
+}
