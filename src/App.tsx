@@ -3,7 +3,6 @@ import Video from './Components/Video/Video'
 import Header from './Components/Header/Header'
 import Main from './Components/Main/Main'
 import Projects from './Components/Projects/Projects'
-import { useEffect, useState } from 'react'
 
 const App = () => {
   return (
