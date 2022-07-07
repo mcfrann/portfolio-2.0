@@ -1,0 +1,28 @@
+.main {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.spacer {
+  background-color: #f7f5f5;
+  height: 4em;
+}
+
+.middle-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.middle-spacer {
+  background-color: #f7f5f5;
+  height: 40em;
+  width: 3em;
+}
+
+video {
+  position: fixed;
+  z-index: -1;
+  width: 100%;
+}
