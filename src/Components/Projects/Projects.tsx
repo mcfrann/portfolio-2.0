@@ -5,7 +5,6 @@ import ProjectTile from '../ProjectTile/ProjectTile'
 const Projects = () => {
   const tiles = newProjs.applications
     .map((proj) => {
-      console.log(proj.id)
       return (
         <ProjectTile
           key={proj.id}
