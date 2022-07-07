@@ -5,6 +5,7 @@ import ProjectTile from '../ProjectTile/ProjectTile'
 const Projects = () => {
   const tiles = newProjs.applications
     .map((proj) => {
+      console.log(proj.id)
       return (
         <ProjectTile
           key={proj.id}
@@ -17,7 +18,6 @@ const Projects = () => {
     .sort((b, a) => {
       return a.props.id - b.props.id
     })
-  //NOT WORKING for oracle
 
   console.log(tiles)
 
