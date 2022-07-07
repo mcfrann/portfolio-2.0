@@ -1,0 +1,20 @@
+header {
+  padding: 0.2em;
+  margin-top: 0;
+  margin-bottom: 0;
+  background-color: #f7f5f5;
+}
+
+.top-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0;
+  border-bottom: 1px solid black;
+  height: 3.5em;
+}
+
+.header-detail {
+  border-bottom: 1px solid black;
+  margin-bottom: 0;
+}
