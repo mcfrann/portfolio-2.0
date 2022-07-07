@@ -26,6 +26,11 @@
   color: red;
 }
 
+.about-link-two {
+  display: none;
+  margin-left: 0.3em;
+}
+
 .gif {
   height: 0.7em;
   // width: 0.8em;
@@ -34,4 +39,31 @@
   margin: 0;
   margin-left: 0.3em;
   margin-right: 0.3em;
+}
+
+// -------------------------- breakpoints
+
+@media only screen and (max-width: 900px) {
+  .about-link-one {
+    display: none;
+  }
+
+  .about-link-two {
+    display: block;
+    color: red;
+  }
+
+  .header-detail {
+    text-align: center;
+  }
+
+  .top-nav {
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .header-detail {
+    font-size: 2.5vw;
+  }
 }

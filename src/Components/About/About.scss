@@ -14,14 +14,10 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  height: 100vh;
+  height: 100%;
   width: 70vw;
   margin-bottom: 4em;
 }
-
-// * {
-//   border: 1px solid blue;
-// }
 
 .text-wrapper {
   display: flex;
@@ -63,4 +59,52 @@
 
 .resume-download-button:hover {
   color: red;
+}
+
+//-------------------------------- breakpoints
+
+@media only screen and (max-width: 900px) {
+  .about-wrapper {
+    flex-direction: column-reverse;
+    width: 100vw;
+  }
+
+  .about-pic {
+    margin: 1em;
+  }
+
+  .text-wrapper {
+    width: 90%;
+  }
+
+  .about-section {
+    height: 100%;
+  }
+
+  .about-text {
+    text-align: center;
+    font-size: 1.7em;
+  }
+
+  .detail-text {
+    text-align: center;
+    font-size: 4em;
+  }
+
+  .resume-container {
+    justify-content: center;
+  }
+
+  .resume-download-button {
+    color: red;
+    font-size: 2em;
+  }
+
+  .about-title {
+    display: none;
+  }
+
+  .nav-link {
+    color: red;
+  }
 }

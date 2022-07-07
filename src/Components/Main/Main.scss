@@ -20,3 +20,11 @@
   height: 40em;
   width: 3em;
 }
+
+//-------------------------------- breakpoints
+
+@media only screen and (max-width: 600px) {
+  .middle-spacer {
+    height: 60vh;
+  }
+}
