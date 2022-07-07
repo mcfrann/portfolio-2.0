@@ -10,6 +10,7 @@ const Projects = () => {
           key={proj.id}
           id={proj.id}
           name={proj.name}
+          repo={proj.repo}
           // image={proj.image}
         />
       )
@@ -17,8 +18,6 @@ const Projects = () => {
     .sort((b, a) => {
       return a.props.id - b.props.id
     })
-
-  console.log(tiles)
 
   return (
     <section className='projects-section'>
