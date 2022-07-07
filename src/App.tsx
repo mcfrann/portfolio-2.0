@@ -1,18 +1,17 @@
 import './App.scss'
+import Video from './Components/Video/Video'
 import Header from './Components/Header/Header'
 import Main from './Components/Main/Main'
-const video = require('./background-vid.mp4')
+import Projects from './Components/Projects/Projects'
+import { useEffect, useState } from 'react'
 
 const App = () => {
   return (
     <div className='App'>
-      <div className='video-wrapper'>
-        <video id='background-video' autoPlay loop muted>
-          <source src={video} type='video/mp4' />
-        </video>
-      </div>
+      <Video />
       <Header />
       <Main />
+      <Projects />
     </div>
   )
 }
