@@ -4,6 +4,7 @@ import github from '../../Images/github.png'
 import linkedin from '../../Images/linkedin.png'
 import email from '../../Images/email.png'
 import photo from '../../Images/photo.png'
+import spotify from '../../Images/spotify.png'
 import { Link } from 'react-router-dom'
 
 const About = () => {
@@ -52,6 +53,17 @@ const About = () => {
                 className='link-icon'
                 src={photo}
                 alt='link to francescas photography site'
+              />
+            </a>
+            <a
+              href='https://open.spotify.com/playlist/5vYRRGnb0KaB8tsVihyN5C?si=nYTLopneR-q7o_MCnN6LbQ'
+              target='_blank'
+              className='link-icon'
+            >
+              <img
+                className='link-icon'
+                src={spotify}
+                alt='link to francescas spotify playlist'
               />
             </a>
           </div>
