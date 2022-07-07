@@ -3,6 +3,7 @@ import Video from './Components/Video/Video'
 import Header from './Components/Header/Header'
 import Main from './Components/Main/Main'
 import Projects from './Components/Projects/Projects'
+import Footer from './Components/Footer/Footer'
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
       <Header />
       <Main />
       <Projects />
+      <Footer />
     </div>
   )
 }
