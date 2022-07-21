@@ -1,5 +1,5 @@
 import './About.scss'
-import pic from '../../Images/about-pic.jpg'
+import pic from '../../Images/about-pic.png'
 import { Link } from 'react-router-dom'
 import PDF from '../../FMcConnell_CV.pdf'
 import Footer from '../Footer/Footer'
@@ -18,7 +18,7 @@ const About = () => {
         </header>
         <div className='about-wrapper'>
           <div className='text-wrapper'>
-            <p className='detail-text'>i'm franki</p>
+            <p className='detail-text'>i'm francesca</p>
             <p className='about-text'>
               and i am a creative software developer. as an artist, i approach
               my work with a passion for the intersection of visually striking
