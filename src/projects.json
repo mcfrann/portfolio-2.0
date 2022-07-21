@@ -3,42 +3,42 @@
     {
       "id": 1,
       "name": "travel tracker",
-      "image": "projPicOne",
+      "image": "images/travel-tracker.jpg",
       "repo": "https://github.com/mcfrann/TravelTracker",
-      "deployed": null
+      "deployed": ""
     },
     {
       "id": 2,
       "name": "rancid tomatillos",
-      "image": "projPicTwo",
+      "image": "images/rancid-tomatillos.jpg",
       "repo": "https://github.com/mcfrann/RancidTomatillos",
-      "deployed": null
+      "deployed": ""
     },
     {
       "id": 3,
       "name": "roll for initiative",
-      "image": "projPicThree",
+      "image": "images/roll-for-initiative.jpg",
       "repo": "https://github.com/mcfrann/roll-for-initiative",
       "deployed": "https://roll-for-initiative-turing.herokuapp.com/"
     },
     {
       "id": 4,
       "name": "daily wow",
-      "image": "projPicFour",
+      "image": "images/daily-wow.jpg",
       "repo": "https://github.com/mcfrann/daily-wow",
       "deployed": "https://daily-wow.herokuapp.com/"
     },
     {
       "id": 5,
       "name": "oracle",
-      "image": "projPicFive",
+      "image": "images/oracle.jpg",
       "repo": "https://github.com/mcfrann/oracle",
       "deployed": "https://oracle-ai.herokuapp.com/"
     },
     {
       "id": 6,
       "name": "art news",
-      "image": "projPicSix",
+      "image": "images/art-news.jpg",
       "repo": "https://github.com/mcfrann/art-news",
       "deployed": "https://your-art-news.herokuapp.com/"
     }
