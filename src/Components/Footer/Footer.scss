@@ -1,8 +1,8 @@
 .footer {
-  height: 10vh;
+  height: 100%;
   background-color: #f7f5f5;
   margin: 0;
-  border-top: 1px solid black;
+  padding-top: 3em;
 }
 
 .footer-info {
@@ -11,7 +11,10 @@
   justify-content: space-between;
   align-items: center;
   margin: 0;
+  padding-top: 1em;
+  padding-bottom: 1em;
   height: 100%;
+  border-top: 1px solid black;
 }
 
 .footer-text {
@@ -29,7 +32,7 @@
 
 //-------------------------------- breakpoints
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
   .footer-info {
     flex-direction: column;
     text-align: center;
