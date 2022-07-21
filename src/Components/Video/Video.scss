@@ -3,3 +3,9 @@ video {
   z-index: -1;
   height: 100%;
 }
+
+@media only screen and (max-width: 800px) {
+  video {
+    display: none;
+  }
+}
