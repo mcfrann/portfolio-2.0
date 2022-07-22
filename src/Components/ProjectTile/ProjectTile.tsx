@@ -43,7 +43,7 @@ const ProjectTile = (props: ProjectInfo) => {
           </a>
           {props.deployed !== '' && (
             <a
-              href={props.repo}
+              href={props.deployed}
               target='_blank'
               style={{ textDecoration: 'none', color: 'black' }}
             >
