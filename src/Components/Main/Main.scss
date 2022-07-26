@@ -9,10 +9,15 @@
   height: 4em;
 }
 
+// * {
+//   border: 1px solid blue;
+// }
+
 .middle-section {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
 }
 
 .middle-spacer {
@@ -26,5 +31,11 @@
 @media only screen and (max-width: 800px) {
   .middle-spacer {
     height: 60vh;
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  .middle-spacer {
+    width: 10em;
   }
 }

@@ -2,6 +2,7 @@ video {
   position: fixed;
   z-index: -1;
   height: 100%;
+  margin: 0;
 }
 
 @media only screen and (max-width: 800px) {
@@ -10,8 +11,8 @@ video {
   }
 }
 
-@media only screen and (min-width: 1300px) {
-  video {
-    width: 100%;
-  }
-}
+// @media only screen and (min-width: 1300px) {
+//   video {
+//     width: 100%;
+//   }
+// }
