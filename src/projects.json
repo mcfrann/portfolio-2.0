@@ -41,6 +41,13 @@
       "image": "images/art-news.jpg",
       "repo": "https://github.com/mcfrann/art-news",
       "deployed": "https://your-art-news.herokuapp.com/"
+    },
+    {
+      "id": 7,
+      "name": "what should i draw",
+      "image": "images/what-should-i-draw.jpg",
+      "repo": "https://github.com/mcfrann/what-should-i-draw",
+      "deployed": "https://what-should-i-draw.herokuapp.com/"
     }
   ]
 }
